@@ -1,0 +1,15 @@
+{
+  "name": "rpi-keyboard-servo-control",
+  "version": "0.1.0",
+  "description": "Node.js script controlling pan-tilt servos using keyboard arrow keys",
+  "main": "src/servo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Grzegorz Pabian <greg.pabian@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "keypress": "^0.2.1",
+    "pigpio": "^0.5.1"
+  }
+}
